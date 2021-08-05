@@ -1,0 +1,42 @@
+.contact {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.contact-section {
+  padding: 20px;
+}
+
+form label {
+  font-size: 20px;
+}
+
+form input {
+	height: 35px;
+	margin-top: 10px;
+  font-size: 20px;
+}
+
+form input, form textarea {
+	width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+	height: 160px;
+	margin-top: 10px;
+  font-size: 20px;
+}
+
+button {
+  width: max-content;
+  padding: 1em 2em;
+  border: none;
+  font-size: 16px;
+}
+
+@media all and (min-width: 700px) {
+  .contact {
+    width: 50%;
+  }
+}
