@@ -16,8 +16,9 @@ export default class Contact extends React.Component {
 
             <label htmlFor="user-message">Message:</label>
             <textarea id="user-message" name="message" placeholder="Enter a short message" />
-
+            <div className='button-container'>
             <button type="submit">Submit</button>
+            </div>
           </form>
         </div>
       </section>

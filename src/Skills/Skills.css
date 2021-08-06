@@ -4,7 +4,7 @@
 }
 
 .skills-container {
-  padding-top: 20px;
+  padding-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -27,6 +27,6 @@
 /* Desktop Responsive */
 @media all and (min-width: 700px) {
   .skills {
-    width: 75%;
+    width: 50%;
   }
 }

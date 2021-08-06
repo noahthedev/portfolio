@@ -6,7 +6,6 @@ import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
-import Footer from '../Footer/Footer'
 
 export default class App extends React.Component  {
 
@@ -17,9 +16,13 @@ export default class App extends React.Component  {
        <Greeting/>
        <About/>
        <Projects/>
+       <div className='flex-container'>
        <Skills/>
        <Contact/>
-       <Footer/>
+       </div>
+       <footer className='footer'>
+         <p>&#169; Noah Roberts</p>
+       </footer>
       </div>
     )
   }
