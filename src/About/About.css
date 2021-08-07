@@ -1,0 +1,46 @@
+.About {
+  color: white;
+  background-color: #02aab0;
+  background-image: linear-gradient(to bottom right, #02aab0 , #00cdac);
+}
+
+.about-me {
+  padding: 0px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.About h3 {
+  padding-top: 30px;
+}
+
+.photo-wrapper img {
+  width: 100%;
+}
+
+.text-wrapper p {
+  font-size: 18px;
+}
+
+@media all and (min-width: 800px) {
+  .about-me {
+    flex-direction: row;
+  }
+
+  .text-wrapper {
+    width: 50%;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .text-wrapper p {
+    margin-top: 0px;
+  }
+
+  .photo-wrapper {
+    width: 50%;
+  }
+
+  .photo-wrapper img {
+    padding-right: 10px;
+  }
+}

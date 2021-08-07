@@ -6,7 +6,8 @@ export default class Greeting extends React.Component  {
   render() {
     return (
       <div className="Greeting">
-        <p>hi</p>
+        <h1>Noah Roberts</h1>
+        <p>Chicago-based software engineer</p>
       </div>
     )
   }

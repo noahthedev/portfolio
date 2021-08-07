@@ -1,29 +1,24 @@
-.footer {
+.nav {
   padding: 20px 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: flex-end;
 }
 
-.footer p {
-  color: #332E3C;
-}
-
-.footer-icon {
-  font-size: 30px;
+.nav-icon {
+  font-size: 40px;
   padding-right: 20px;
   color: #332E3C;
   cursor: pointer;
 }
 
-.footer-icon:last-child {
+.nav-icon:last-child {
   padding-right: 0;
 }
 
-.footer-icon:hover, .footer-icon:focus {
-  color: #3587A4;
+.nav-icon:hover, .nav-icon:focus {
+  color: #02aab0;
 }
 
-.social-links {
+.nav-links {
   padding: 10px;
 }

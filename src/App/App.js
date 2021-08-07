@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
 
+
 export default class App extends React.Component  {
 
   render() {

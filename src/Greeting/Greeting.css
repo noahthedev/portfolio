@@ -1,0 +1,16 @@
+.Greeting h1 {
+  font-size: 70px;
+  background-color: #02aab0;
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 30px;
+  margin-bottom: 0px;
+}
+
+.Greeting p {
+  font-size: 20px;
+  padding: 0px 0px 0px 40px;
+}
+
