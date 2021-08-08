@@ -11,9 +11,21 @@ h4 {
   margin: 0px;
 }
 
+.project-container p {
+  margin: 0px;
+}
+
 .Projects img {
   width: 100%;
   box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.75);
+}
+
+.source {
+  background-color: #02aab0;
+  background: -webkit-linear-gradient(#02aab0, #00cdac);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media all and (min-width: 800px) {

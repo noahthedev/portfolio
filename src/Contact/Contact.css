@@ -32,9 +32,13 @@ form textarea {
 }
 
 button {
+  color: white;
   border: none;
   font-size: 20px;
   padding: 1em;
+  background-color: #02aab0;
+  background-image: linear-gradient(to bottom right, #02aab0 , #00cdac);
+  border-radius: 10px;
 }
 
 
