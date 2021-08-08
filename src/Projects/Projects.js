@@ -38,7 +38,7 @@ export default class Projects extends React.Component  {
               Brew With Tricolate is a recipe app designed to help coffee enthusiasts discover and share recipes for the Tricolate, a revolutionary pourover brewer. 
             </p>
             <p>
-            The user interface is built with a responsive React client. The client communicates with an Express server built in Node.js. Guest data is stored in a PostgreSQL database.
+            The user interface is built with a responsive React client. The client communicates with an Express server built in Node.js. Recipe data is stored in a PostgreSQL database.
             </p>
             <div className='link-container'>
               <a href='https://www.brewwithtricolate.com/' target='_blank' rel='noreferrer'className='live'>See Live</a>
