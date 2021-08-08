@@ -14,6 +14,11 @@
   padding-top: 30px;
 }
 
+.photo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .photo-wrapper img {
   width: 100%;
 }
@@ -23,7 +28,7 @@
 }
 
 .resume-wrapper {
-  margin-top: 30px;
+  margin-top: 40px;
   text-align: center;
 }
 
