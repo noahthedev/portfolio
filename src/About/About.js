@@ -19,6 +19,9 @@ export default class About extends React.Component  {
             <p>
               My desire to work with emerging technology brought me to Thinkful, where I'm currently a student in their web development program. Upon graduation, I will be fluent in JS, HTML, and CSS as well as competent in server-side programming. As I expand my knowledge base and experience, I plan to transition to work in UI/UX design. I look forward to a career where I can be a lifelong student and coloborate with similarly passionate individuals and teams.
             </p>
+            <div className='resume-wrapper'>
+              <a href='https://docs.google.com/document/d/1ZdTNgPmC1MSaU_HXTOBWHfwqzIhgM68K_RK25PTOYJc/edit?usp=sharing' target='_blank' rel='noreferrer'className='resume'>Resume</a>
+            </div>
           </div>
         </div>
       </div>

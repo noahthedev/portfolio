@@ -17,15 +17,32 @@ h4 {
 
 .Projects img {
   width: 100%;
-  box-shadow: 10px 10px 10px -5px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 10px -5px ;
+}
+
+.link-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.live {
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  background-color: #02aab0;
+  background-image: linear-gradient(to bottom right, #02aab0 , #00cdac);
+  border-radius: 10px;
 }
 
 .source {
-  background-color: #02aab0;
-  background: -webkit-linear-gradient(#02aab0, #00cdac);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  color:#00cdac;
+  background-color: white;
 }
 
 @media all and (min-width: 800px) {

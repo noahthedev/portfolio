@@ -22,6 +22,21 @@
   font-size: 18px;
 }
 
+.resume-wrapper {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.resume {
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  padding: 20px;
+  color:#00cdac;
+  background-color: white;
+  border-radius: 10px;
+}
+
 @media all and (min-width: 800px) {
   .about-me {
     flex-direction: row;

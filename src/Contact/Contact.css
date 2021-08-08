@@ -27,11 +27,12 @@ form textarea {
 	margin-top: 10px;
   font-size: 20px;
 }
+
 .button-container {
   text-align: center;
 }
 
-button {
+.contact button {
   color: white;
   border: none;
   font-size: 20px;
