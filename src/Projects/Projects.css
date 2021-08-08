@@ -7,12 +7,12 @@
   margin-bottom: 20px;
 }
 
-h4 {
-  font-size: 20px;
-  margin: 0px;
+.project-container p {
+  margin: 5px 0px 10px 0px;
 }
 
-.project-container p {
+h4 {
+  font-size: 20px;
   margin: 0px;
 }
 
@@ -40,6 +40,7 @@ h4 {
   color: white;
   font-size: 20px;
   padding: 20px;
+  margin: 5px;
   background-color: #02aab0;
   background-image: linear-gradient(to bottom right, #02aab0 , #00cdac);
   border-radius: 10px;
@@ -50,6 +51,7 @@ h4 {
   border: none;
   font-size: 20px;
   padding: 20px;
+  margin: 5px;
   color:#00cdac;
   background-color: white;
 }

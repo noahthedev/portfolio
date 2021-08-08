@@ -19,6 +19,9 @@ export default class Projects extends React.Component  {
             <p>
               TableText is a waiting list app that allows restaurants to send an SMS to the guest when their table is ready.
             </p>
+            <p>
+              The user interface is built with a responsive React client. The client communicates with an Express server built in Node.js. Guest data is stored in a PostgreSQL database. The server communicates with the Twilio API to enable SMS transmission.
+            </p>
             <div className='link-container'>
               <a href='https://tabletext.vercel.app/' target='_blank' rel='noreferrer'className='live'>See Live</a>
               <a href='https://github.com/noahthedev/tabletext-client' target='_blank' rel='noreferrer' className='source'>Source Code</a>
@@ -32,7 +35,10 @@ export default class Projects extends React.Component  {
           <div className='text-wrapper'>
             <h4>Brew with Tricolate</h4>
             <p>
-              Brew With Tricolate is a web app designed to help coffee enthusiasts discover and share recipes for the Tricolate, a revolutionary pourover brewer. 
+              Brew With Tricolate is a recipe app designed to help coffee enthusiasts discover and share recipes for the Tricolate, a revolutionary pourover brewer. 
+            </p>
+            <p>
+            The user interface is built with a responsive React client. The client communicates with an Express server built in Node.js. Guest data is stored in a PostgreSQL database.
             </p>
             <div className='link-container'>
               <a href='https://www.brewwithtricolate.com/' target='_blank' rel='noreferrer'className='live'>See Live</a>
@@ -47,7 +53,10 @@ export default class Projects extends React.Component  {
           <div className='text-wrapper'>
             <h4>APIs for IPAs</h4>
             <p>
-              A web app that will find you beer! APIs for IPAs is a brewery finder built on Chris Mears' Open Brewery DB API. Users can enter their ZIP code to query the database and results will be displayed on an embedded Google Map with web links if the user desires to find more information.
+              APIs for IPAs is a brewery finder app built on Chris Mears' Open Brewery DB API. Users can enter their ZIP code to query the database and results will be displayed on an embedded Google Map with web links if the user desires to find more information.
+            </p>
+            <p>
+              The client is built with HTML and CSS. It uses Javascript and jQuery requests to retrieve data from the Open Brewery Database and the Google Maps API to dispay brewery data on an embedded map.
             </p>
             <div className='link-container'>
               <a href='https://noahthedev.github.io/APIs-for-IPAs/' target='_blank' rel='noreferrer'className='live'>See Live</a>
