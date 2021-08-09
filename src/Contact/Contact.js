@@ -9,13 +9,13 @@ export default class Contact extends React.Component {
         <div className='contact-section'>
           <form action="https://formspree.io/f/mzbkvded" method="POST">
             <label htmlFor="user-name">Name:</label>
-            <input id="user-name" type="text" name="name"/>
+            <input id="user-name" type="text" name="name" required/>
 
             <label htmlFor="user-email">Email:</label>
-            <input id="user-email" type="text" name="email"/>
+            <input id="user-email" type="text" name="email" required/>
 
             <label htmlFor="user-message">Message:</label>
-            <textarea id="user-message" name="message"/>
+            <textarea id="user-message" name="message" required/>
             <div className='button-container'>
             <button type="submit">Submit</button>
             </div>
