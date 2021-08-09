@@ -6,14 +6,14 @@ import './NavBar.css'
 export default class NavBar extends React.Component {
   render() {
     return (
-      <div className='nav'>
-          <a href='https://github.com/noahthedev' target='_blank' rel="noreferrer" className='nav-links'>
+      <nav className='nav'>
+          <a href='https://github.com/noahthedev' target='_blank' rel="noreferrer" className='nav-links' aria-label='Github'>
             <FontAwesomeIcon icon={faGithub} className='nav-icon'/>
           </a>
-          <a href='https://www.linkedin.com/in/noahmichaelroberts/' target='_blank' rel="noreferrer" className='nav-links'>
+          <a href='https://www.linkedin.com/in/noahmichaelroberts/' target='_blank' rel="noreferrer" className='nav-links' aria-label='LinkedIn'>
             <FontAwesomeIcon icon={faLinkedin} className='nav-icon'/>
           </a>
-      </div>
+      </nav>
     )
   }
 }

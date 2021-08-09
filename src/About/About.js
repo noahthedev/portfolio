@@ -6,7 +6,7 @@ export default class About extends React.Component  {
 
   render() {
     return (
-      <div className="About">
+      <article className="About">
         <h3>About Me</h3>
         <div className='about-me'>
           <div className='photo-wrapper'>
@@ -27,7 +27,7 @@ export default class About extends React.Component  {
             </div>
           </div>
         </div>
-      </div>
+      </article>
     )
   }
 }

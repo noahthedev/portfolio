@@ -10,7 +10,7 @@ export default class Projects extends React.Component  {
     return (
       <div className="Projects">
         <h3>Projects</h3>
-        <div className='project-container'>
+        <article className='project-container'>
           <div className='img-wrapper'>
             <img src={TableText} alt='a sms-enabled restaurant waiting list app'/>
           </div>
@@ -27,8 +27,8 @@ export default class Projects extends React.Component  {
               <a href='https://github.com/noahthedev/tabletext-client' target='_blank' rel='noreferrer' className='source'>Source Code</a>
             </div>
           </div>
-        </div>
-        <div className='project-container'>
+        </article>
+        <article className='project-container'>
           <div className='img-wrapper'>
             <img src={Tricolate} alt='a recipe finder for the Tricolate brewer'/>
           </div>
@@ -45,8 +45,8 @@ export default class Projects extends React.Component  {
               <a href='https://github.com/noahthedev/tricolate-client' target='_blank' rel='noreferrer' className='source'>Source Code</a>
             </div>
           </div>
-        </div>
-        <div className='project-container'>
+        </article>
+        <article className='project-container'>
           <div className='img-wrapper'>
             <img src={ApiIpa} alt='a brerwery finder web app'/>
           </div>
@@ -63,7 +63,7 @@ export default class Projects extends React.Component  {
               <a href='https://github.com/noahthedev/APIs-for-IPAs' target='_blank' rel='noreferrer' className='source'>Source Code</a>
             </div>
           </div>
-        </div>
+        </article>
       </div>
     )
   }

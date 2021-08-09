@@ -5,10 +5,10 @@ export default class Greeting extends React.Component  {
 
   render() {
     return (
-      <div className="Greeting">
+      <header className="Greeting">
         <h1>Noah Roberts</h1>
-        <p>Chicago-based software engineer</p>
-      </div>
+        <h2>Chicago-based software engineer</h2>
+      </header>
     )
   }
 }
